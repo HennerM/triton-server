@@ -45,13 +45,13 @@ FetchContent_Declare(
 )
 FetchContent_Declare(
   repo-core
-  GIT_REPOSITORY https://github.com/triton-inference-server/core.git
-  GIT_TAG ${TRITON_CORE_REPO_TAG}
+  GIT_REPOSITORY https://github.com/HennerM/triton-inference-server-core.git
+  GIT_TAG fix-clang-15-warnings
 )
 FetchContent_Declare(
   repo-backend
-  GIT_REPOSITORY https://github.com/triton-inference-server/backend.git
-  GIT_TAG ${TRITON_BACKEND_REPO_TAG}
+  GIT_REPOSITORY https://github.com/HennerM/triton-inference-server-backend.git
+  GIT_TAG fix-clang-15-warnings
 )
 
 if(TRITON_ENABLE_GRPC)

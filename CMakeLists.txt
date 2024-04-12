@@ -110,8 +110,8 @@ include(FetchContent)
 
 FetchContent_Declare(
   repo-core
-  GIT_REPOSITORY https://github.com/triton-inference-server/core.git
-  GIT_TAG ${TRITON_CORE_REPO_TAG}
+  GIT_REPOSITORY https://github.com/HennerM/triton-inference-server-core.git
+GIT_TAG fix-clang-15-warnings
 )
 FetchContent_Declare(
   repo-third-party
